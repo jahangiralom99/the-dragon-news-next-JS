@@ -14,7 +14,6 @@ import React from "react";
 const DynamicNewsPages = async ({ searchParams }) => {
   const { data } = await getCategoryNews(searchParams.category);
 
-  console.log(data);
 
   return (
     <div className="my-5">
